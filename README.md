@@ -62,7 +62,8 @@ Body:
 Responce: Status Code 200 Done
 ### About the databace
 
-All the data in the data in the databace is stred in the db.json file in the Endpoints directroy.
+All the data in the data in the database is stored in the db.json file in the Endpoints directory.
+<br>
 Format:
   ```javascript
 {
