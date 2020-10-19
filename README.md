@@ -34,7 +34,8 @@ response: Status Code 200
 ### Get
 
 This endpoint is a GET request. It will send all the data in the databace. All you do to use it is call "http://mywebserver.com:3000/get" and in the body it will send you all the data in json format.
-responce example:
+<br>
+Responce example:
 ```javascript
 {
   "status": "Pennding",
@@ -48,10 +49,12 @@ responce example:
 ### Remove
 
 This endpoint is a POST request. It will remove the entry from the databace with the ticket id given. The request will look like "http://mywebserver.com:3000/remove/"Ticket id"".
+<br>
 Responce: Satus Code 200 Done
 
 ### Set
 This endpoint is a POST request. It will change the status of entry from the databace with the new status given. The request will look like "http://mywebserver.com:3000/set"".
+<br>
 Body:
 ```javascript
 {
