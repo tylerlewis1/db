@@ -48,12 +48,12 @@ Responce example:
 
 ### Remove
 
-This endpoint is a POST request. It will remove the entry from the databace with the ticket id given. The request will look like "http://mywebserver.com:3000/remove/"Ticket id"".
+This endpoint is a POST request. It will remove the entry from the databace with the ticket id given. The request will look like "http://mywebserver.com:3000/remove/Ticket id".
 <br>
 Responce: Satus Code 200 Done
 
 ### Set
-This endpoint is a POST request. It will change the status of entry from the databace with the new status given. The request will look like "http://mywebserver.com:3000/set"".
+This endpoint is a POST request. It will change the status of entry from the databace with the new status given. The request will look like "http://mywebserver.com:3000/set".
 <br>
 Body:
 ```javascript
