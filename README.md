@@ -60,6 +60,20 @@ Body:
  }
 ```
 Responce: Status Code 200 Done
+### About the databace
+
+All the data in the data in the databace is stred in the db.json file in the Endpoints directroy.
+Format:
+  ```javascript
+{
+  "status": "Pennding",
+  "ticket": "123",
+  "room": "1234",
+  "name": "Name",
+  "problem": "The problem description"
+ }
+```
+
 
 
 
