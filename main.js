@@ -5,7 +5,9 @@ const remove = require('./Endpoints/remove.js');
 const set = require('./Endpoints/set.js');
 var cors = require('cors')
 const app = express();
-
+app.get('/', (req, res, next) =>{
+  res.send("Running");
+});
 app.use(cors());
 app.use('/add', add);
 app.use('/remove', remove);
